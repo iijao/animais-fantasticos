@@ -7,7 +7,6 @@
       this.handleMutation = this.handleMutation.bind(this);
     }
     static incrementarNumeros(numero){
-      console.log( numero.innerText)
         const total = +numero.innerText;
         const incremento = Math.floor(total / 100);
         let start = 0;
